@@ -15,6 +15,6 @@ public class JavaAzureDemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Your application is deployed and running in Azure AppService.";
+		return "Congratulations..!! Your application is deployed and running in Azure AppService.";
 	}
 }
